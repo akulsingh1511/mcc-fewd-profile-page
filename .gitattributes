@@ -1,2 +1,72 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Anay's profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main-nav">
+    <ul class="nav">
+      <li class="name" style="color:orange">Anay Singh </li>
+      <li><a href="#" style="color:orange">Home</a></li>
+      <li><a href="#" target="_blank" style="color:orange">Introduction</a></li>
+    </ul>
+  </div>
+
+  <header>
+
+    <style>
+      header {
+        text-align: center;
+        background: url(images/india.png) no-repeat top center;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 60px;
+      }
+    </style>
+    <img src="pro.png" alt="picture of Anay Singh" class="profile-image" />
+    <h1 class="tag name" style="color:orange">Hi guys, This is Anay!</h1>
+    <p class="tag location" style="color:orange">I am from Mumbai, India.</p>
+  </header>
+
+  <main class="flex">
+    <div class="card">
+      <h2>Background</h2>
+      <p>I am from India and recently moved in U.S. I have finished my Bachelore's in Electronics and Telecomm. from India.
+        Even though, I belong from Electrical Engineering stream, I always get attracted by the programming world. My keenness
+        to learn a new technology brought me in the coding world.
+
+      </p>
+      <p>In spare time, i like to listen the jazz music and read the non-fiction books.</p>
+    </div>
+
+    <div class="card">
+      <h2>Goals</h2>
+      <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+      </ul>
+      <p>I’d like to build a website which can easily be accessed from any browser on any device.</p>
+    </div>
+
+  </main>
+  <footer>
+    <ul>
+      <li><a href="https://twitter.com/?lang=en" class="social twitter">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/feed/" class="social linkedin">LinkedIn</a></li>
+    </ul>
+    <p class="copyright">Copyright 2015</p>
+  </footer>
+</body>
+
+</html>
